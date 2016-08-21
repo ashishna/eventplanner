@@ -10,10 +10,13 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/event_50"
+        android:paddingTop="10dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginRight="8dp" />
+        android:layout_marginRight="8dp"
 
-    <!-- Movie Title -->
+       />
+
+
     <TextView
         android:id="@+id/event"
         android:layout_width="wrap_content"
@@ -21,9 +24,9 @@
         android:layout_alignTop="@+id/thumbnail"
         android:layout_toRightOf="@+id/thumbnail"
         android:textSize="@dimen/event"
-        android:textStyle="bold" />
+        android:textColor="#000000"
+        android:textStyle="normal" />
 
-    <!-- Rating -->
     <TextView
         android:id="@+id/date"
         android:layout_width="fill_parent"
